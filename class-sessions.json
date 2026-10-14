@@ -1,5 +1,5 @@
 {
-  "_note": "ONE CONFIG for the timetable. Seats are NOT live from Square (static site): set booked counts by hand in overrides, e.g. {\"date\":\"2026-10-22\",\"start\":\"18:00\",\"booked\":6} shows FULL. Any url starting PLACEHOLDER_ must be replaced with that Square Class classDetails link once the class is created in Square; until then the block falls back to fallbackUrl.",
+  "_note": "ONE CONFIG for the timetable. Each weekly url is that day's Square Class page; timetable.js appends ?dateStart=<unix seconds of the session start, Brisbane UTC+10> per dated block. Seats are not live from Square: set booked counts by hand in overrides, e.g. {\"date\":\"2026-10-22\",\"start\":\"18:00\",\"booked\":6} shows FULL.",
   "capacity": 6,
   "weekly": [
     {
@@ -8,7 +8,7 @@
       "start": "13:00",
       "end": "15:00",
       "label": "1–3pm",
-      "url": "PLACEHOLDER_SQUARE_CLASS_URL_WEEKDAY_1_3"
+      "url": "https://book.squareup.com/appointments/iai0n4wstkiwtj/location/LS8TDAPT4MR8V/classDetails/clssch_584m5e2f4bn3f3"
     },
     {
       "dow": 2,
@@ -16,7 +16,7 @@
       "start": "13:00",
       "end": "15:00",
       "label": "1–3pm",
-      "url": "PLACEHOLDER_SQUARE_CLASS_URL_WEEKDAY_1_3"
+      "url": "https://book.squareup.com/appointments/iai0n4wstkiwtj/location/LS8TDAPT4MR8V/classDetails/clssch_1cxcjqiibk5r63"
     },
     {
       "dow": 3,
@@ -24,7 +24,7 @@
       "start": "13:00",
       "end": "15:00",
       "label": "1–3pm",
-      "url": "PLACEHOLDER_SQUARE_CLASS_URL_WEEKDAY_1_3"
+      "url": "https://book.squareup.com/appointments/iai0n4wstkiwtj/location/LS8TDAPT4MR8V/classDetails/clssch_fpo7be7jhkgvai"
     },
     {
       "dow": 4,
@@ -41,7 +41,7 @@
       "start": "13:00",
       "end": "15:00",
       "label": "1–3pm",
-      "url": "PLACEHOLDER_SQUARE_CLASS_URL_WEEKDAY_1_3"
+      "url": "https://book.squareup.com/appointments/iai0n4wstkiwtj/location/LS8TDAPT4MR8V/classDetails/clssch_nijuk1r5ybtf2j"
     },
     {
       "dow": 6,
@@ -49,7 +49,7 @@
       "start": "10:00",
       "end": "12:00",
       "label": "10am–12pm",
-      "url": "PLACEHOLDER_SQUARE_CLASS_URL_SAT_BEGINNERS_10_12"
+      "url": "https://book.squareup.com/appointments/iai0n4wstkiwtj/location/LS8TDAPT4MR8V/classDetails/clssch_3jkl32p7rhglid"
     }
   ],
   "price": 20,

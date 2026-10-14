@@ -25,7 +25,7 @@
       if(t<=now){html+='<div class="tt-cell tt-past">'+dl+'<div class="tt-gone">'+w.name+'<br>'+w.label+'</div></div>';continue;}
       if(!next)next={t:t,w:w};
       var o=ov[ymd(d)+' '+w.start]||{}, left=Math.max(0,cfg.capacity-(o.booked||0)), full=left===0;
-      var early=(t-now)>=7*DAYMS, url=o.url||w.url; if(!url||/^PLACEHOLDER_/.test(url))url=cfg.fallbackUrl;
+      var early=(t-now)>=7*DAYMS, url=o.url||w.url; if(!url||/^PLACEHOLDER_/.test(url))url=cfg.fallbackUrl; else if(!o.url)url+=(url.indexOf('?')<0?'?':'&')+'dateStart='+((Date.UTC(t.getFullYear(),t.getMonth(),t.getDate(),t.getHours(),t.getMinutes())/1000)-36000);
       var inner=dl+'<div class="tt-name">'+w.name+'</div><div class="tt-time">'+w.label+'</div><div class="tt-price">A$'+cfg.price+' + materials</div>'+
         (full?'<div class="tt-full">FULL</div>':'<div class="tt-seats">'+left+' of '+cfg.capacity+' seats left</div>')+
         (w.note?'<div class="tt-note">'+w.note+'</div>':'')+(early&&!full?'<div class="tt-badge">A$5 off — booked 7+ days ahead</div>':'');
