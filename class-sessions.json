@@ -1,0 +1,58 @@
+{
+  "_note": "ONE CONFIG for the timetable. Seats are NOT live from Square (static site): set booked counts by hand in overrides, e.g. {\"date\":\"2026-10-22\",\"start\":\"18:00\",\"booked\":6} shows FULL. Any url starting PLACEHOLDER_ must be replaced with that Square Class classDetails link once the class is created in Square; until then the block falls back to fallbackUrl.",
+  "capacity": 6,
+  "weekly": [
+    {
+      "dow": 1,
+      "name": "Painting class",
+      "start": "13:00",
+      "end": "15:00",
+      "label": "1–3pm",
+      "url": "PLACEHOLDER_SQUARE_CLASS_URL_WEEKDAY_1_3"
+    },
+    {
+      "dow": 2,
+      "name": "Painting class",
+      "start": "13:00",
+      "end": "15:00",
+      "label": "1–3pm",
+      "url": "PLACEHOLDER_SQUARE_CLASS_URL_WEEKDAY_1_3"
+    },
+    {
+      "dow": 3,
+      "name": "Painting class",
+      "start": "13:00",
+      "end": "15:00",
+      "label": "1–3pm",
+      "url": "PLACEHOLDER_SQUARE_CLASS_URL_WEEKDAY_1_3"
+    },
+    {
+      "dow": 4,
+      "name": "BYO Paint and Sip",
+      "start": "18:00",
+      "end": "20:00",
+      "label": "6–8pm",
+      "note": "Booking required",
+      "url": "https://book.squareup.com/appointments/iai0n4wstkiwtj/location/LS8TDAPT4MR8V/classDetails/clssch_ld1b3jdaexyq2i"
+    },
+    {
+      "dow": 5,
+      "name": "Painting class",
+      "start": "13:00",
+      "end": "15:00",
+      "label": "1–3pm",
+      "url": "PLACEHOLDER_SQUARE_CLASS_URL_WEEKDAY_1_3"
+    },
+    {
+      "dow": 6,
+      "name": "Beginners class",
+      "start": "10:00",
+      "end": "12:00",
+      "label": "10am–12pm",
+      "url": "PLACEHOLDER_SQUARE_CLASS_URL_SAT_BEGINNERS_10_12"
+    }
+  ],
+  "price": 20,
+  "overrides": [],
+  "fallbackUrl": "https://square.site/book/LS8TDAPT4MR8V/anything-art"
+}
