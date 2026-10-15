@@ -21,3 +21,4 @@
 .tt-sun{background:#e3dcf2}.tt-priv{font-weight:600}
 .tt-src{font-size:.85rem;opacity:.75;margin-top:.6rem}
 @media (max-width:820px){.tt-grid{grid-template-columns:1fr}.tt-h{display:none}.tt-cell{min-height:0}.tt-past{display:none}}
+.tt-class{display:block;border-radius:8px;padding:.45rem;margin-top:.3rem}.tt-kids{background:#d9822b}.tt-kids:hover{background:#b96c1f}.tt-gone{opacity:.5;margin-top:.3rem}

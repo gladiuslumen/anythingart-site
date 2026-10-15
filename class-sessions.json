@@ -50,9 +50,105 @@
       "end": "12:00",
       "label": "10am–12pm",
       "url": "https://book.squareup.com/appointments/iai0n4wstkiwtj/location/LS8TDAPT4MR8V/classDetails/clssch_3jkl32p7rhglid"
+    },
+    {
+      "dow": 1,
+      "start": "15:30",
+      "end": "17:00",
+      "label": "3:30–5pm",
+      "name": "Kids art class",
+      "price": 25,
+      "priceLabel": "A$25 all materials supplied",
+      "note": "Ages 6–12 · parent stays for under 8s",
+      "kids": true,
+      "url": "PLACEHOLDER_KIDS"
+    },
+    {
+      "dow": 2,
+      "start": "15:30",
+      "end": "17:00",
+      "label": "3:30–5pm",
+      "name": "Kids art class",
+      "price": 25,
+      "priceLabel": "A$25 all materials supplied",
+      "note": "Ages 6–12 · parent stays for under 8s",
+      "kids": true,
+      "url": "PLACEHOLDER_KIDS"
+    },
+    {
+      "dow": 3,
+      "start": "15:30",
+      "end": "17:00",
+      "label": "3:30–5pm",
+      "name": "Kids art class",
+      "price": 25,
+      "priceLabel": "A$25 all materials supplied",
+      "note": "Ages 6–12 · parent stays for under 8s",
+      "kids": true,
+      "url": "PLACEHOLDER_KIDS"
+    },
+    {
+      "dow": 4,
+      "start": "15:30",
+      "end": "17:00",
+      "label": "3:30–5pm",
+      "name": "Kids art class",
+      "price": 25,
+      "priceLabel": "A$25 all materials supplied",
+      "note": "Ages 6–12 · parent stays for under 8s",
+      "kids": true,
+      "url": "PLACEHOLDER_KIDS"
+    },
+    {
+      "dow": 5,
+      "start": "15:30",
+      "end": "17:00",
+      "label": "3:30–5pm",
+      "name": "Kids art class",
+      "price": 25,
+      "priceLabel": "A$25 all materials supplied",
+      "note": "Ages 6–12 · parent stays for under 8s",
+      "kids": true,
+      "url": "PLACEHOLDER_KIDS"
+    },
+    {
+      "dow": 6,
+      "start": "13:00",
+      "end": "15:00",
+      "label": "1–3pm",
+      "name": "Kids art class",
+      "price": 25,
+      "priceLabel": "A$25 all materials supplied",
+      "note": "Ages 6–12 · parent stays for under 8s",
+      "kids": true,
+      "url": "PLACEHOLDER_KIDS"
+    },
+    {
+      "dow": 0,
+      "start": "10:00",
+      "end": "12:00",
+      "label": "10am–12pm",
+      "name": "Kids art class",
+      "price": 25,
+      "priceLabel": "A$25 all materials supplied",
+      "note": "Ages 6–12 · parent stays for under 8s",
+      "kids": true,
+      "url": "PLACEHOLDER_KIDS"
     }
   ],
   "price": 20,
   "overrides": [],
-  "fallbackUrl": "https://square.site/book/LS8TDAPT4MR8V/anything-art"
+  "fallbackUrl": "https://square.site/book/LS8TDAPT4MR8V/anything-art",
+  "kidsLessons": [
+    "Tropical Sunset",
+    "Under the Sea",
+    "Galaxy Night Sky",
+    "Cute Cat",
+    "Rainbow Hot Air Balloon",
+    "Dinosaur Silhouette",
+    "Sunflower",
+    "Kangaroo at Sunset"
+  ],
+  "kidsRotationStart": "2026-10-19",
+  "kidsFallbackUrl": "classes.html#timetable"
 }
