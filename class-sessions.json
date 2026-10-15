@@ -61,7 +61,7 @@
       "priceLabel": "A$25 all materials supplied",
       "note": "Ages 6–12 · parent stays for under 8s",
       "kids": true,
-      "url": "PLACEHOLDER_KIDS"
+      "url": "https://book.squareup.com/classes/iai0n4wstkiwtj/location/LS8TDAPT4MR8V/classes"
     },
     {
       "dow": 2,
@@ -73,7 +73,7 @@
       "priceLabel": "A$25 all materials supplied",
       "note": "Ages 6–12 · parent stays for under 8s",
       "kids": true,
-      "url": "PLACEHOLDER_KIDS"
+      "url": "https://book.squareup.com/classes/iai0n4wstkiwtj/location/LS8TDAPT4MR8V/classes"
     },
     {
       "dow": 3,
@@ -85,19 +85,7 @@
       "priceLabel": "A$25 all materials supplied",
       "note": "Ages 6–12 · parent stays for under 8s",
       "kids": true,
-      "url": "PLACEHOLDER_KIDS"
-    },
-    {
-      "dow": 4,
-      "start": "15:30",
-      "end": "17:00",
-      "label": "3:30–5pm",
-      "name": "Kids art class",
-      "price": 25,
-      "priceLabel": "A$25 all materials supplied",
-      "note": "Ages 6–12 · parent stays for under 8s",
-      "kids": true,
-      "url": "PLACEHOLDER_KIDS"
+      "url": "https://book.squareup.com/classes/iai0n4wstkiwtj/location/LS8TDAPT4MR8V/classes"
     },
     {
       "dow": 5,
@@ -109,7 +97,7 @@
       "priceLabel": "A$25 all materials supplied",
       "note": "Ages 6–12 · parent stays for under 8s",
       "kids": true,
-      "url": "PLACEHOLDER_KIDS"
+      "url": "https://book.squareup.com/classes/iai0n4wstkiwtj/location/LS8TDAPT4MR8V/classes"
     },
     {
       "dow": 6,
@@ -121,7 +109,7 @@
       "priceLabel": "A$25 all materials supplied",
       "note": "Ages 6–12 · parent stays for under 8s",
       "kids": true,
-      "url": "PLACEHOLDER_KIDS"
+      "url": "https://book.squareup.com/classes/iai0n4wstkiwtj/location/LS8TDAPT4MR8V/classes"
     },
     {
       "dow": 0,
@@ -133,7 +121,7 @@
       "priceLabel": "A$25 all materials supplied",
       "note": "Ages 6–12 · parent stays for under 8s",
       "kids": true,
-      "url": "PLACEHOLDER_KIDS"
+      "url": "https://book.squareup.com/classes/iai0n4wstkiwtj/location/LS8TDAPT4MR8V/classes"
     }
   ],
   "price": 20,
@@ -150,5 +138,5 @@
     "Kangaroo at Sunset"
   ],
   "kidsRotationStart": "2026-10-19",
-  "kidsFallbackUrl": "classes.html#timetable"
+  "kidsFallbackUrl": "https://book.squareup.com/classes/iai0n4wstkiwtj/location/LS8TDAPT4MR8V/classes"
 }
