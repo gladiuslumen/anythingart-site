@@ -3,14 +3,6 @@
   "capacity": 6,
   "weekly": [
     {
-      "dow": 1,
-      "name": "Painting class",
-      "start": "13:00",
-      "end": "15:00",
-      "label": "1–3pm",
-      "url": "https://book.squareup.com/appointments/iai0n4wstkiwtj/location/LS8TDAPT4MR8V/classDetails/clssch_584m5e2f4bn3f3"
-    },
-    {
       "dow": 2,
       "name": "Painting class",
       "start": "13:00",
@@ -50,18 +42,6 @@
       "end": "12:00",
       "label": "10am–12pm",
       "url": "https://book.squareup.com/appointments/iai0n4wstkiwtj/location/LS8TDAPT4MR8V/classDetails/clssch_3jkl32p7rhglid"
-    },
-    {
-      "dow": 1,
-      "start": "15:30",
-      "end": "17:00",
-      "label": "3:30–5pm",
-      "name": "Kids art class",
-      "price": 25,
-      "priceLabel": "A$25 all materials supplied",
-      "note": "Ages 6–12 · parent stays for under 8s",
-      "kids": true,
-      "url": "https://book.squareup.com/classes/iai0n4wstkiwtj/location/LS8TDAPT4MR8V/classes"
     },
     {
       "dow": 2,
